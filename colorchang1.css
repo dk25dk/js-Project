@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(185, 182, 178);
+}
+#text h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    bottom: 70px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(214, 89, 89);
+    width: 50%;
+    margin:auto;
+    box-shadow: 4px 4px 7px rgb(73, 70, 70);
+}
+h2{
+    position: relative;
+    top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+span{
+    display: block;
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.color{
+    margin:100px auto 100px;
+    /* margin: 30px; */
+    width: 80%;
+    text-align: center;  
+}
+.btn{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    border: 2px solid black;
+    display: inline-block;
+    /* margin-right: 30px; */
+    box-shadow: 2px 2px 6px rgb(49, 47, 35);
+    
+}
+#red{
+    background-color: red;
+    text-align: center;
+}
+#black{
+    background-color: black;
+    color: wheat;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
